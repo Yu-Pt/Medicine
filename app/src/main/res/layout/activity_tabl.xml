@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="vertical"
+    tools:context=".Tabl">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            app:srcCompat="@drawable/pills" />
+
+        <TextView
+            android:id="@+id/tabl1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_tabl1"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="100sp"
+            android:text="Взять"
+            android:backgroundTint="@color/buttons_menu"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            app:srcCompat="@drawable/pills" />
+
+        <TextView
+            android:id="@+id/tabl2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_tabl2"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:text="Взять"
+            android:layout_marginEnd="10sp"
+            android:backgroundTint="@color/buttons_menu"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            app:srcCompat="@drawable/pills" />
+
+        <TextView
+            android:id="@+id/tabl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button_tabl3"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:text="Взять"
+            android:layout_marginEnd="10sp"
+            android:backgroundTint="@color/buttons_menu"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            app:srcCompat="@drawable/pills" />
+
+        <TextView
+            android:id="@+id/tabl4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button_tabl4"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100sp"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:text="Взять"
+            android:layout_marginEnd="10sp"
+            android:backgroundTint="@color/buttons_menu"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            app:srcCompat="@drawable/pills" />
+
+        <TextView
+            android:id="@+id/tabl5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/button_tabl5"
+            android:layout_width="150sp"
+            android:layout_marginEnd="10sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible"
+            android:layout_marginStart="100sp"
+            android:text="Взять"
+            android:backgroundTint="@color/buttons_menu"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/back_tabl"
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="10sp"
+            android:background="@drawable/resurs_3"/>
+
+        <TextView
+            android:id="@+id/end_of_tabl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="40sp"
+            android:visibility="invisible"
+            android:text="У больницы небольшое финансирование, сегодняшний привоз закончился" />/>
+
+    </LinearLayout>
+
+</LinearLayout>

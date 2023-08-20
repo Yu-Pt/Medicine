@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main2"
+    tools:context=".MainActivity"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/text_greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_marginEnd="25sp"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="15sp"
+        android:gravity="end"
+        android:textColor="@color/text"
+        android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/hallToWards"
+        android:layout_width="140sp"
+        android:layout_height="240sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="40sp"
+        android:background="@android:color/transparent"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:id="@+id/hallToSklad"
+        android:layout_width="140sp"
+        android:layout_height="240sp"
+        android:background="@android:color/transparent"
+        android:layout_marginStart="190sp"
+        android:layout_marginTop="40sp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/hallToCards"
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="40sp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ответить"
+        android:background="@android:color/transparent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:visibility="invisible"/>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/storage"
+    android:orientation="vertical"
+    tools:context=".Sklad">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/skladTabl"
+        android:layout_width="210sp"
+        android:layout_height="140sp"
+        android:layout_marginStart="130sp"
+        android:layout_marginTop="50sp"
+        android:background="@android:color/transparent"
+        />
+
+    <Button
+        android:id="@+id/skladRast"
+        android:layout_width="210sp"
+        android:layout_height="150sp"
+        android:layout_marginStart="70sp"
+        android:layout_marginTop="30sp"
+        android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/skladToBack"
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="65sp"
+            android:background="@drawable/resurs_3" />
+
+    <Button
+        android:id="@+id/skladMaz"
+        android:layout_width="170sp"
+        android:layout_height="150sp"
+        android:layout_marginStart="90sp"
+        android:layout_marginTop="30sp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/skladAero"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_marginStart="90sp"
+        android:layout_marginTop="30sp"
+        android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="vertical"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/logo_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50sp"
+        android:textSize="36sp"
+        android:textColor="@color/logo"
+        android:text="Medicine" />
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="16sp"
+        android:text="Добро пожаловать" />
+
+    <Button
+        android:id="@+id/button_playGame"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="Играть"
+        android:background="@drawable/buttons_menu"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button_signOut"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="Выйти из аккаунта"
+        android:background="@drawable/buttons_menu"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10sp"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/button_resetGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Сбросить игру"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        />
+</LinearLayout>

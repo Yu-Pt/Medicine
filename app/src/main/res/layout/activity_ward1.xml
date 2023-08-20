@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/room"
+    android:orientation="horizontal"
+    tools:context=".Ward1">
+
+    <Button
+        android:id="@+id/ward1back"
+        android:layout_width="120sp"
+        android:layout_height="210sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="80sp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/ward1bed1"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="180sp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/ward1bed2"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="180sp"
+        android:layout_marginStart="90sp"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/ward1bed3"
+        android:layout_width="130sp"
+        android:layout_height="100sp"
+        android:layout_marginTop="180sp"
+        android:layout_marginStart="80sp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

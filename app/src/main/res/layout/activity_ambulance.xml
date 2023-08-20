@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    android:orientation="vertical"
+    tools:context=".Ambulance">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/amb_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        android:background="@drawable/female1"/>
+
+        <TextView
+            android:id="@+id/amb_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="50sp"
+            android:textSize="28sp"
+            android:text="Имя" />
+
+    <TextView
+        android:id="@+id/amb_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Имя" />
+
+        <TextView
+            android:id="@+id/amb_rightDiag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Имя" />
+
+        <TextView
+            android:id="@+id/amb_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Имя" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20sp"
+    android:layout_marginStart="10sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gender_to_gone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Пол:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amb_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:text="Пол"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp">
+
+        <TextView
+            android:id="@+id/adres_to_gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Адрес:"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/amb_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_weight="1"
+        android:text="Адрес"
+        android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10sp">
+
+        <TextView
+            android:id="@+id/symp_to_gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Симптомы:"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/amb_symp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Симптомы"
+        android:layout_marginStart="10sp"
+        android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="10sp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="option1" />
+        <CheckBox
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="option2" />
+        <CheckBox
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="option3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp">
+
+        <Button
+            android:id="@+id/ambToBack"
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="60sp"
+            android:background="@drawable/resurs_3"/>
+
+    <Button
+        android:id="@+id/ambGiveDiag"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:text="Поставить диагноз"
+        android:layout_marginStart="400sp"
+        android:backgroundTint="@color/buttons_menu"
+        android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
